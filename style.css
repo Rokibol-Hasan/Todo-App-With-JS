@@ -1,0 +1,56 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+}
+body{
+    /* padding: 0;
+    margin:0; */
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    align-items:center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+#task-add{
+    width: 500px;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 88, 116);
+    color: white;
+
+}
+input[type=text]{
+    padding: 5px 30px;
+    border: none;
+}
+input[type=text]:focus{
+    border: 2px solid black;
+}
+input[type=button]{
+    padding: 5px 10px;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.task-display-section{
+
+    width: 500px;
+    margin: auto;
+    padding: 20px 50px;
+    background-color: chocolate;
+    color: white;
+}
+.task-display h3{
+
+}
