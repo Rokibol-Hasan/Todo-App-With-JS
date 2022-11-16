@@ -46,6 +46,7 @@ totalData.forEach(function (value, index) {
   let taskText = taskLi.innerText;
   editIcon.addEventListener("click", function () {
     taskInput.value = taskText;
+    taskSubmit.value = "Update Task";
     taskSubmit.addEventListener("click", function () {
       if (crossIcon.id !== -1) {
         totalData[crossIcon.id] = taskInput.value;
